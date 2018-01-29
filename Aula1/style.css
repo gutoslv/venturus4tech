@@ -1,0 +1,65 @@
+body {
+    font-family: 'Calibri', 'Sans-serif';
+}
+
+h1 {
+    text-align: center;
+}
+
+.messageList{
+    height: 300px;
+    width: 500px;
+    background-color: #ababab;
+    margin: auto;
+    overflow: scroll;
+}
+
+.messageList ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-top: 2px;
+}
+
+.messageList ul li {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+}
+
+.time {
+    text-align: right;
+    border-top: 1px solid #DDD;
+}
+
+.messagePanel {
+    width: 500px;
+    margin: auto;
+}
+
+.messagePanel textarea {
+    width: 400px;
+}
+
+#btnSend {
+    vertical-align: top;
+    height: 71px;
+    width: 96px;
+    background-color: #45b;
+    border: 1px solid #1b1919;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnSend:hover {
+    background-color: red;
+    transform: scale(0.9);
+}
+
+#btnSend:active{
+    background-color: green;
+    transform: rotateY(180deg);
+
+}
+
+.border-bonitinha {
+    border-radius: 10px;
+}

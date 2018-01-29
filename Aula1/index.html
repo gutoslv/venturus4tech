@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="chat-windows">
+            <h1>Ventuchat</h1>
+            <div class="messageList border-bonitinha" id="scrl">
+                <ul id = "messageList">
+                    <li> Mensagem <div class="time"> 10:30pm </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="messagePanel">
+                <textarea id="message" placeholder="Escreva sua mensagem aqui" maxlength="500" onkeyup="keyup(event)" rows="5" class="border-bonitinha"></textarea>
+                <button id="btnSend" onclick="sendMessage()" class="border-bonitinha">Enviar</button>
+                <div id="counter">0/500</div>
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
